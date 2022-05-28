@@ -1,5 +1,10 @@
 # crispy-octo-lamp
 
+# run all locally with docker-compose
+```
+docker-compose up
+```
+
 # backend build:
 ```
 docker build -t crispy-backend .
