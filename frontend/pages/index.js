@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import DeleteIcon from '@mui/icons-material/Delete';
+import Typography from '@mui/material/Typography';
 
 export default function Home() {
   return (
@@ -20,6 +22,23 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h3>Delete? &rarr;</h3>
+            <DeleteIcon />
+          </a>
+
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h3>Delete? &rarr;</h3>
+            <DeleteIcon />
+          </a>
+
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h3>Heading 4? &rarr;</h3>
+            <Typography variant="h4" component="div" gutterBottom>
+              h4. Heading
+            </Typography>
+          </a>
+
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
